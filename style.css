@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: lightseagreen;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategrey;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.tareaList {
+    margin: auto;
+    width: 100%;
+}
+
+input {
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+}
+
+form {
+    display: flex;
+}
+
+.btn-add {
+    padding: 5px 15px;
+    border: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(20, 110, 110);
+    font-size: 25px;
+    outline: none;
+}
+
+.sinTareas {
+    color: darkslategrey;
+}
+
+ul {
+    padding: 0;
+    border: none;
+}
+
+/*li {
+ 
+}*/
+
+li p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+btn-delete {
+    background-color: crimson;
+}
