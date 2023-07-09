@@ -67,6 +67,9 @@ li p {
     color: black;
 }
 
-btn-delete {
+.btn-delete {
     background-color: crimson;
+    border: none;
+    color: white;
+    transform: translateY(-50%);
 }
