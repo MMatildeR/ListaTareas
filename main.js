@@ -45,7 +45,8 @@ function addDeleteBtn () {
         }
 
 
-    })
+    });
+    return deleteBtn
 }
 
 
