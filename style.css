@@ -57,19 +57,22 @@ ul {
     border: none;
 }
 
-/*li {
- 
-}*/
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 li p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     color: black;
+    margin-right:10px;
 }
 
 .btn-delete {
     background-color: crimson;
     border: none;
     color: white;
-    transform: translateY(-50%);
 }
